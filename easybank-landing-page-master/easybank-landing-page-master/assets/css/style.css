@@ -63,7 +63,7 @@ justify-content: flex-start;
 .btnMenu, .active{
   color: hsl(233, 8%, 62%);
   border: none;
-  padding-bottom: 46.5px;
+  padding-bottom: 26.5px;
   text-decoration: none; 
 }
 .active, .btnMenu:hover{
@@ -75,7 +75,141 @@ justify-content: flex-start;
 
 /* Fim Menu*/
 
-.contentPrincipal{
+/* Introdução */
+.container{
+  display: flex;
+  justify-content: center;
+  background-image: url("../images/bg-intro-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: 440% 52%;
+  background-size: 90%;
   height: 500px;
-  background-color: hsl(220, 16%, 96%);
+  background-color: hsl(0, 0%, 98%);
 }
+.contentPrincipal{
+width: 100%;
+  display: flex;
+ justify-content: space-between;
+}
+
+.contentLeft{
+  border: 1px solid rebeccapurple;
+  width: 50%;
+  height: 100%;
+}
+.contentRight{
+  border: 1px solid rebeccapurple;
+  width: 50%;
+  height: 100%;
+}
+.titlePrincipal{
+  font-family: 'PublicSans';
+  font-size: 50px;
+}
+
+/* Fim Introdução*/
+
+/* Services */
+
+.containerServices{
+  height: 550px;
+  width: 100%;
+  display: flex;
+  background-color: hsl(220, 16%, 96%);
+  justify-content: center;
+}
+.services{
+  width: 1100px;
+  display: flex;
+  flex-direction: column;
+}
+.description{
+  font-family: 'PublicSans';
+  font-size: 15px;
+  color: hsl(233, 8%, 62%);
+}
+.subtitle{
+  font-family: 'PublicSans';
+  font-size: 35px;
+  color: hsl(233, 26%, 24%);
+  margin-top: 100px;
+}
+.cards{
+  display: flex;
+  margin-right: 20px;
+}
+.titleCard{
+  font-family: 'PublicSans';
+  font-size: 25px;
+  color: hsl(233, 26%, 24%);
+  margin-top: 10px;
+}
+.contentCard{
+  font-family: 'PublicSans';
+  font-size: 15px;
+  color: hsl(233, 8%, 62%);
+  text-align: left;
+  margin-top: 20px;
+}
+.contentServicesDown{
+  margin-top: 40px;
+}
+
+/*Fim Services */
+
+/* Articles */
+
+.contentArticle{
+  background-color: hsl(0, 0%, 98%);
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+}
+.articles{
+  width: 1100px;
+  display: flex;
+  flex-direction: column;
+}
+.titleArticle{
+  font-family: 'PublicSans';
+  font-size: 15px;
+  color: hsl(233, 26%, 24%);
+}
+.cardsArticle{
+  display: flex;
+  justify-content: space-between;
+}
+.modelCardArticle{
+background-color: hsl(0, 0%, 100%);
+width: 250px;
+border-radius: 10px;
+}
+.imageCardArticle img{
+  width: 250px;
+  height: auto;
+}
+.autorArticle{
+  font-family: 'PublicSans';
+  font-size: 10px;
+  color: hsl(233, 8%, 62%);
+}
+.titleCardArticle{
+  font-family: 'PublicSans';
+  font-size: 15px;
+  color: hsl(233, 26%, 24%);
+  margin-top: 15px;
+}
+.areaArticle{
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin: 20px;
+}
+.contentCardArticle{
+  font-family: 'PublicSans';
+  font-size: 13px;
+  color: hsl(233, 8%, 62%);
+  margin-top: 10px;
+}
+/* Fim Articles */
