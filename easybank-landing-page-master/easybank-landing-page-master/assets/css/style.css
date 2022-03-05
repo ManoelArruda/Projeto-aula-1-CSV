@@ -86,25 +86,41 @@ justify-content: flex-start;
   height: 500px;
   background-color: hsl(0, 0%, 98%);
 }
-.contentPrincipal{
-width: 100%;
-  display: flex;
- justify-content: space-between;
+.container2{
+  width: 100%;
+  background-image: url("../images/image-mockups.png");
+  background-repeat: no-repeat;
+  background-position: 117% 40%;
+  background-size: 50%;
+  height: 500px;
+  background-color: transparent;
+  position: relative;
+  
 }
-
-.contentLeft{
-  border: 1px solid rebeccapurple;
-  width: 50%;
+.contentPrincipal{
+  width: 40%;
   height: 100%;
+
+}
+.contentLeft{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin-left: 60px;
 }
 .contentRight{
-  border: 1px solid rebeccapurple;
   width: 50%;
   height: 100%;
 }
 .titlePrincipal{
   font-family: 'PublicSans';
   font-size: 50px;
+}
+.contentLeft p{
+  font-family: 'PublicSans';
+  color: hsl(233, 8%, 62%);
 }
 
 /* Fim Introdução*/
@@ -200,6 +216,13 @@ border-radius: 10px;
   color: hsl(233, 26%, 24%);
   margin-top: 15px;
 }
+.titleCardArticle a{
+  text-decoration: none;
+  color: hsl(233, 26%, 24%);
+}
+.titleCardArticle a:hover{
+  color: hsl(136, 65%, 51%);
+}
 .areaArticle{
   display: flex;
   flex-direction: column;
@@ -213,3 +236,73 @@ border-radius: 10px;
   margin-top: 10px;
 }
 /* Fim Articles */
+
+/* Footer */
+
+.containerFooter{
+  background-color: hsl(233, 26%, 24%);
+  display: flex;
+  justify-content: center;
+  height: 200px;
+}
+.footer{
+  width: 1100px;
+  display: flex;
+  justify-content: center;
+}
+.footerLeft{
+  width: 20%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.comunication{
+  display: flex;
+}
+.imgComunication:hover{
+  fill: hsl(136, 65%, 51%);
+}
+.logoFooter{
+  margin-bottom: 50px;
+}
+.comunication div{
+  margin-right: 15px;
+}
+.footerCenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+.footerCenterLeft{
+  width: 50%;
+}
+.footerCenterLeft div, .footerCenterRight div{
+  padding: 10px 0px 10px 0px;
+}
+.footerCenterLeft div a, .footerCenterRight div a{
+  text-decoration: none;
+  color: hsl(0, 0%, 98%);
+  font-family: 'PublicSans';
+  font-size: 13px;
+}
+.footerCenterLeft div a:hover, .footerCenterRight div a:hover{
+  color: hsl(136, 65%, 51%);
+}
+.footerRight{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footerRight a{
+  padding: 0px 0px 30px 0px;
+}
+.footerRight p{
+  color: hsl(0, 0%, 98%);
+  font-family: 'PublicSans';
+  font-size: 13px;
+}
+/* Fim footer*/
